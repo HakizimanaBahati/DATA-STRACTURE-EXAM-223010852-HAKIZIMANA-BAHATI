@@ -1,0 +1,98 @@
+EXAMPLE 1 Explanation of the Code
+==================================
+ #include <iostream> – This includes a library that allows us to use cout (to print messages).
+
+ using namespace std; – This makes writing simpler (otherwise, we’d have to type std::cout).
+
+ int main() – Every C++ program must have a main() function—this is where the program starts.
+
+ cout << "Hello, World!"; – This prints "Hello, World!" to the screen.
+
+ return 0; – This ends the program successfully.
+
+==================================
+EXAMPLE 2 Explanation of the Code
+==================================
+
+ #include <iostream> – This includes a library that allows us to use cout (to print messages).
+
+ using namespace std; – This makes writing simpler (otherwise, we’d have to type std::cout).
+
+ int main() – Every C++ program must have a main() function—this is where the program starts.
+
+int age = 20; => when your declaring a variable as Integer  it means that variable will store only the integer only,  means variable age will hold only number with no decimal number
+
+double price = 19.99;  when your declare the variable as Double it means that the variable will store both whole number and decimal number and can be big number compared to the integer because has 4bytes while double has 8bytes.
+
+char grade = 'A';   when your declare a variable as Character it means that the variable will store only characters.
+ 
+string name = "Alice";  when you declare a variable as String it mean the variable will store long characters compared to the char because char data type has size of 1byte while string has 4byte which means can hold more character.
+
+cout << "Name: " << name << endl; This line tells the compiler to output the name.
+
+cout << "Age: " << age << endl;  This line tells the compiler to output the age.
+
+cout << "Price: $" << price << endl; This line tells the compiler to output the price.
+
+cout << "Grade: " << grade << endl; This line tells the compiler to output the Grade
+    
+return 0; this ends the program successfully.
+
+===================================
+EXAMPLE 3 Explanation of the Code
+==================================
+
+ #include <iostream> – This includes a library that allows us to use cout (to print messages).
+
+ using namespace std; – This makes writing simpler (otherwise, we’d have to type std::cout).
+
+ int main() – Every C++ program must have a main() function—this is where the program starts.
+
+string name;  when you declare a variable as String it mean the variable will store long characters compared to the char because char data type has size of 1byte while string has 4byte which means can hold more character.
+
+int age;  when your declaring a variable as Integer  it means that variable will store only the integer only,  means variable age will hold only number with no decimal number
+
+cout << "Enter your name: "; This line will output the message that will prompt the user to input the name.
+
+cin >> name; This line will tell user to input their name..
+
+
+
+cout << "Enter your age: ";  This line will output the message that will prompt the user to input the age.
+cin >> age; This line will tell user to input their name.
+
+cout << "Hello, " << name << "! You are " << age << " years old." << endl; this line the user to see the output; this will display the name and age entered by the user.
+
+
+ return 0;  this ends the program successfully.
+
+
+==================================
+EXAMPLE  4 Explanation of the Code
+==================================
+
+#include <iostream>:
+using namespace std;
+
+int main()
+ 
+ int a = 10, b = 3; This line tells the compile to declare data type at the same time initializing value during variable declaration.
+  
+cout << "Sum: " << a + b << endl; this line will output the sum of two integer number.
+
+cout << "Difference: " << a - b << endl; This line will output the difference of two integer number.
+
+cout << "Product: " << a * b << endl; This line will output the product of two integer number.
+
+cout << "Quotient: " << a / b << endl; This line will output the division of two integer number.
+
+cout << "Remainder: " << a % b << endl;This line will output the remainder of two integer number.
+
+
+ return 0; return 0;  this ends the program successfully.
+
+
+
+
+
+
